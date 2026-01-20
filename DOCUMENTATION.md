@@ -29,5 +29,5 @@ The container is configured with elevated privileges to perform restricted netwo
 | **Nmap** | `nmap` | Network exploration tool and security / port scanner. |
 
 ## Network Setup
-- The service defaults to the standard Docker bridge network but can be attached to other networks as defined in `docker-compose.yaml`.
+- The service (`network-testing-tool`) defaults to the standard Docker bridge network but can be attached to other networks as defined in `docker-compose.yaml`.
 - The container is designed to be run interactively or for one-off commands.

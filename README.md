@@ -6,7 +6,7 @@ A lightweight, Docker-based toolkit designed for network troubleshooting and dia
 
 ```bash
 # Run the tool interactively (starts shell, exits when done)
-docker compose run --rm network-tool /bin/sh
+docker compose run --rm network-testing-tool /bin/sh
 ```
 
 ## Documentation

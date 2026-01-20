@@ -18,9 +18,9 @@ The tool is designed to be run transiently (start, do work, exit).
 ### Start Interactive Shell
 To drop into a shell inside the container:
 ```bash
-docker compose run --rm network-tool /bin/sh
+docker compose run --rm network-testing-tool /bin/sh
 ```
-*`--rm` ensures the container is removed after you exit the shell.*
+*arguments `--rm` ensures the container is removed after you exit the shell.*
 
 ## Usage Examples
 
