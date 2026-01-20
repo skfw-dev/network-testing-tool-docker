@@ -1,0 +1,11 @@
+services:
+  network-tool:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: testing-network-tool:latest
+    pull_policy: never
+    container_name: testing
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
